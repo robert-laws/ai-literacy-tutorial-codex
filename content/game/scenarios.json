@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "title": "Citation for AI Brainstorm",
+    "scenario": "You used an AI tool to brainstorm essay ideas and kept some phrasing.",
+    "choices": [
+      { "text": "Submit without mention", "deltas": { "Accuracy": 0, "Attribution": -1, "Privacy": 0 }, "feedback": "Lack of disclosure risks integrity issues." },
+      { "text": "Note AI use in acknowledgments with prompt details", "deltas": { "Accuracy": 0, "Attribution": 1, "Privacy": 0 }, "feedback": "Transparent and aligns with citation guidance." },
+      { "text": "Rewrite everything from memory and cite nothing", "deltas": { "Accuracy": 0, "Attribution": -1, "Privacy": 0 }, "feedback": "Originality unclear; disclosure still expected." }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sensitive Data in Prompts",
+    "scenario": "You need feedback on a draft email containing classmates’ phone numbers.",
+    "choices": [
+      { "text": "Paste the full email into a public AI tool", "deltas": { "Accuracy": 0, "Attribution": 0, "Privacy": -1 }, "feedback": "Shares PII; unsafe." },
+      { "text": "Replace phone numbers with placeholders before pasting", "deltas": { "Accuracy": 0, "Attribution": 0, "Privacy": 1 }, "feedback": "Protects PII while getting feedback." }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Checking AI Facts",
+    "scenario": "AI provides a historical date that seems off.",
+    "choices": [
+      { "text": "Trust the AI because it sounded confident", "deltas": { "Accuracy": -1, "Attribution": 0, "Privacy": 0 }, "feedback": "Confidence isn't evidence." },
+      { "text": "Verify in two reliable sources before using", "deltas": { "Accuracy": 1, "Attribution": 0, "Privacy": 0 }, "feedback": "Verification improves accuracy." },
+      { "text": "Skip verification but add a citation anyway", "deltas": { "Accuracy": -1, "Attribution": 1, "Privacy": 0 }, "feedback": "Citing incorrect info remains inaccurate." }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Group Project Boundaries",
+    "scenario": "Team policy allows AI for brainstorming, not for final writing.",
+    "choices": [
+      { "text": "Use AI to draft the full report", "deltas": { "Accuracy": 0, "Attribution": -1, "Privacy": 0 }, "feedback": "Violates agreed scope and integrity." },
+      { "text": "Use AI for outline ideas, then write yourselves", "deltas": { "Accuracy": 1, "Attribution": 1, "Privacy": 0 }, "feedback": "Follows policy and credits AI brainstorming." }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Model Output with Bias",
+    "scenario": "Image model underrepresents certain groups.",
+    "choices": [
+      { "text": "Keep using results as-is", "deltas": { "Accuracy": -1, "Attribution": 0, "Privacy": 0 }, "feedback": "Biased outputs reduce reliability." },
+      { "text": "Document the bias and seek more representative data", "deltas": { "Accuracy": 1, "Attribution": 0, "Privacy": 0 }, "feedback": "Mitigation and transparency help accuracy." }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "AI and Academic Sources",
+    "scenario": "AI suggests a citation you can't find anywhere.",
+    "choices": [
+      { "text": "Use it because it fits your point", "deltas": { "Accuracy": -1, "Attribution": 0, "Privacy": 0 }, "feedback": "Likely fabricated; inaccurate." },
+      { "text": "Exclude it and find a real source", "deltas": { "Accuracy": 1, "Attribution": 0, "Privacy": 0 }, "feedback": "Prioritizes accuracy with verifiable sources." }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Prompt Guardrails",
+    "scenario": "You want AI-generated practice questions without fake citations.",
+    "choices": [
+      { "text": "Ask for questions and sources, no caveats", "deltas": { "Accuracy": -1, "Attribution": 0, "Privacy": 0 }, "feedback": "Risk of fabricated sources." },
+      { "text": "Ask for questions and instruct the AI to admit uncertainty instead of fabricating sources", "deltas": { "Accuracy": 1, "Attribution": 0, "Privacy": 0 }, "feedback": "Guardrails reduce hallucinations." }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sharing AI Outputs",
+    "scenario": "You plan to post AI-generated art with your name.",
+    "choices": [
+      { "text": "Post without mentioning AI", "deltas": { "Accuracy": 0, "Attribution": -1, "Privacy": 0 }, "feedback": "Missing attribution to AI tool." },
+      { "text": "Credit the AI tool and your edits in the caption", "deltas": { "Accuracy": 0, "Attribution": 1, "Privacy": 0 }, "feedback": "Transparent about creation process." }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Storing Prompts",
+    "scenario": "You keep prompts with classmates’ names in cloud notes.",
+    "choices": [
+      { "text": "Store them unredacted", "deltas": { "Accuracy": 0, "Attribution": 0, "Privacy": -1 }, "feedback": "Unnecessary exposure of PII." },
+      { "text": "Remove names or store locally with access controls", "deltas": { "Accuracy": 0, "Attribution": 0, "Privacy": 1 }, "feedback": "Improves privacy protection." }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Course Policy Check",
+    "scenario": "Syllabus is unclear about AI use.",
+    "choices": [
+      { "text": "Assume AI is allowed for everything", "deltas": { "Accuracy": 0, "Attribution": -1, "Privacy": 0 }, "feedback": "Ignoring policy risks integrity issues." },
+      { "text": "Ask instructor and document the response", "deltas": { "Accuracy": 0, "Attribution": 1, "Privacy": 0 }, "feedback": "Clarifies expectations and supports proper attribution." }
+    ]
+  }
+]
